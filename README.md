@@ -24,19 +24,21 @@ For the test_CNN script you will also need PyTorch, because I confirmed my resul
 ```
 pip install torch===1.4.0
 ```
-or use [the PyTorch website](https://pytorch.org/)
+Alternatively use [the PyTorch website](https://pytorch.org/).
 
 
 
-### Testing
+### Testing and Example
 
+**Testing:**
 The ```test_CNN.py``` script runs the forward- and backwardpass of all Layers, Activations and Losses with random shaped inputs
 and checks the results with the PyTorch-Autograd Engine.
 
+**Example:**
 I also wrote a small Network in the ```FashionNet.py``` file, which trains a small Model with the FashionMNIST dataset.
 The Model was trained for only one epoch and returned some descend results. They aren't the best, but my test with the same Model in PyTorch got a similar result, so it must be the bad architecture and the short training of only one epoch.
 ![Plot of Loss and Accuracy](FashionMNIST_model_graph.png)
-*Note: the Testing Loss and Accuracy  is more stable because the testing batch was four times the size of the training batch*
+*NOTE: The Testing Loss and Accuracy  is more stable because the testing batch was four times the size of the training batch.*
 
 
 
@@ -69,13 +71,20 @@ The Model was trained for only one epoch and returned some descend results. They
   
  
  
+ ### Future Updates
+ 
+ - update BinaryCrossEntropyLoss for more numerical stability
+ - add BatchNorm and Dropout-Layer
+ - add CELU and ELU activations
+ 
+ 
+ 
  ### Acknowledgments
  For the Softmax, LogSoftmax and CrossEntropyLoss-Module I used
  the numerical more stable functions implemented in the PyTorch Library!
- You should definetly check [this amazing Library out](https://pytorch.org/) ;) luv u :*
+ You should definetly check [this amazing Library out](https://pytorch.org/)! ;) luv u :*
  
- Also a great source for Convolutions and Optimizer were [the CS231n course notes](http://cs231n.github.io/)
-
+ Also a great source for Convolutions and Optimizer were [the CS231n course notes](http://cs231n.github.io/).
  
- 
+ To learn more about Transposed Convolutions: [Paper](https://arxiv.org/pdf/1603.07285.pdf) and [Animations](https://github.com/vdumoulin/conv_arithmetic).
  
