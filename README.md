@@ -72,7 +72,7 @@ The Model was trained for only one epoch and returned some descend results. They
  ### Acknowledgments
  For the Softmax, LogSoftmax and CrossEntropyLoss-Module I used
  the numerical more stable functions implemented in the PyTorch Library!
- You should definetly check this amazing Library out ;) luv u :*
+ You should definetly check [this amazing Library out](https://pytorch.org/) ;) luv u :*
  
  Also a great source for Convolutions and Optimizer were [the CS231n course notes](http://cs231n.github.io/)
 
