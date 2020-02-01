@@ -75,6 +75,9 @@ The Model was trained for only one epoch and returned some descend results. They
  You should definetly check [this amazing Library out](https://pytorch.org/) ;) luv u :*
  
  Also a great source for Convolutions and Optimizer were [the CS231n course notes](http://cs231n.github.io/)
+ 
+ To learn more about Transposed Convolutions: [Paper](https://arxiv.org/pdf/1603.07285.pdf) and [Animations](https://github.com/vdumoulin/conv_arithmetic)
+ 
 
  
  
